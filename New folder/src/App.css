@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  font-family: 'Lumanosimo', cursive;
+}
+.body {
+  display: flex;
+}
+.box {
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  max-width: 80vw;
+}
+.content {
+  width: 70vw;
+  min-width: ;
+  display: inline-block;
+  border: 1px solid red;
+  display: flex;
+}
+div .post {
+  width: 205px;
+  height: 280px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 5px;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  /* chrome based */
+  width: 0px; /* ширина scrollbar'a */
+  background: transparent; /* опционально */
+}
+.post img {
+  width: 200px;
+}
+p {
+  font-size: 10px;
+}
+button {
+  height: 20px;
+  width: 150px;
+  border-radius: 8px;
+  border: none;
+}
+button:hover {
+  box-shadow: 3px 3px 2px red;
+}
