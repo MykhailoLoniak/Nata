@@ -1,0 +1,21 @@
+.logo {
+  margin: 0; /* Видалення зовнішніх відступів */
+  padding: 0; /* Видалення внутрішніх відступів */
+}
+.heder {
+  height: 60px;
+  max-width: 80vw;
+  margin: 0 auto;
+  border: 1px solid red;
+  text-align: left;
+  display: flex;
+}
+
+.heder h1 {
+  margin: 0 auto;
+  padding-top: 5px;
+}
+.heder img {
+  height: 50px;
+  padding-left: 20px;
+}
